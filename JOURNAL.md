@@ -2,6 +2,81 @@
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
+
+# 2026-07-27
+** Time spent: 3 hours**
+
+Toolhead!
+As stated previously, this is made out of CNC machined aluminum. 
+
+<img width="1410" height="1031" alt="image" src="https://github.com/user-attachments/assets/d197ea5d-4b0c-45ae-9d2d-b9ab1f192fd3" />
+
+I started with a simple sketch defining a triangle that is circumscribed around a 59mm circle. Why 59mm? That was the smallest number I could get that still left space for the arm joints to do full range of motion without colliding. Weirdly specific, I know. 
+The center hole is for the hotend.
+
+<img width="1188" height="906" alt="image" src="https://github.com/user-attachments/assets/ce928a0e-3a5f-4550-91be-eb6dc354446f" />
+
+That gets extruded, sides get filleted, and the joints get added with tapped m3 holes for mounting. No double shear should be needed since I am mounting to metal. 
+
+Next was duct. I started by making a rounded cutout in my effector that I want as the start (well, actually midpoint ish, you will see) of the duct and a square I want as the outlet. 
+
+<img width="1229" height="1023" alt="image" src="https://github.com/user-attachments/assets/48466d1f-4353-40a3-9e7e-8a210f58b6b9" />
+
+<img width="1065" height="812" alt="image" src="https://github.com/user-attachments/assets/7180de03-c9c0-497a-9faf-c566afba47f3" />
+
+I moved this square to align with where I want the air to go. The sizing of these was somewhat arbitrary, with the main design constraint being matching a certain cross sectional area - a gentle taper down to 70% of the inlet. So if the inlet is a 17mm circle (19mm hose with a 1mm wall), tahts about 230mm^2 I get to play with. 70% of that is 161mm^2, which is about what my outlet is.
+
+You may be thinking, shouldn't that outlet be a lot smaller to account for the air stream being split into multiple ducts??
+
+No.
+I will be running 2 ducts. Each duct has its own hose and blower. That's right, dual cpap. 
+
+<img width="941" height="986" alt="image" src="https://github.com/user-attachments/assets/e7d97daf-959e-4a1a-9ebd-e1fa61d223fe" />
+
+Next is a loft with a curved centerline. This gets me my duct! 
+
+<img width="1016" height="943" alt="image" src="https://github.com/user-attachments/assets/367e947c-6f38-4c5d-a480-310c829860e0" />
+
+Then it gets mirrored to the other side of course.
+
+
+At this point my friend was like. You know, having 3 ducts would make it symmetrical/match the delta-esque shaping. Triangles and such.
+
+But having 3 CPAP blowers would be silly!! Absurd even!!
+
+
+I love silly. 
+
+<img width="1123" height="918" alt="image" src="https://github.com/user-attachments/assets/6f482df6-05ca-433d-b71d-ce06c5ce0e59" />
+
+Triple duct, triple cpap. I will NOT be limited by cooling.
+
+<img width="1124" height="788" alt="image" src="https://github.com/user-attachments/assets/f4e2b602-48b2-48d6-8a5d-c97237545524" />
+
+Next is a little top plate for mounting the hotend. 
+
+<img width="1059" height="937" alt="image" src="https://github.com/user-attachments/assets/d14ccc81-3c4e-4a93-a7b0-3a3b420fadf7" />
+
+This guy just takes 3x 30mm M3 standoffs, super simple. And it's all metal, so hopefully rigid af. 
+
+<img width="1264" height="917" alt="image" src="https://github.com/user-attachments/assets/089fe80a-b45a-4cd6-95a0-d554d281ba74" />
+
+<img width="1117" height="979" alt="image" src="https://github.com/user-attachments/assets/4decff19-1ace-4679-82c6-875cf06c8b51" />
+
+Another sketch and extrude gets us an extension to the top plate. This is for holding the 3 cpap mounts. 
+
+<img width="1110" height="1004" alt="image" src="https://github.com/user-attachments/assets/4150dd1b-1654-4a0e-809b-f1dcec349820" />
+
+<img width="833" height="934" alt="image" src="https://github.com/user-attachments/assets/4a5137ec-e4aa-4359-9a15-daa697f857a5" />
+
+One more loft, extrude, and circular pattern gets us the upper section of duct. 
+This is connected in one ring. The whole thing is mounted purely by compression from the upper plate and the effector through the standoffs - no additional hardware. It makes things rather clean.
+
+And that's it! Kinda. I need to figure out how berd air hotend cooling works since I don't want a fan on the toolhead. But I don't even know if that takes any additional cad? We will find out!
+
+This thing is silly. It's crazy overkill. It's bonkers. I love it though. Really sets the tone for the rest of this printer. 
+
+
 # 2026-07-27
 **Time spent: 1.5 hours**
 
