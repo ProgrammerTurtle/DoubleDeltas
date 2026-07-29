@@ -57,6 +57,8 @@ Catching this mistake let me cut down the arms to 100mm and the frame height to 
 
 When I tell you this took me 2.5 hours of back and forth math, I am not exaggerating. I went through so many different sizes. I started accounting for rails around the meter mark too, so I had more to adjust than the extrusion length and bleh. Wanted to stick to standard sizes.
 
+The final math ended up being: 100mm arm length plus 90 mm z travel plus 45mm carriage is 235mm. Doubled (double delta) is 470mm needed travel. Rounding to 500mm gives me space in the middle for idlers and some overtravel. Add 120 for the frame horizontal heights and you get 620mm. 
+
 620mm lets me use 500mm rails! Which are signficantly easier to find and cheaper than meter long rails. 
 
 <img width="771" height="812" alt="image" src="https://github.com/user-attachments/assets/2cdb4934-1ebf-4c85-ab62-1b650e1a665c" />
