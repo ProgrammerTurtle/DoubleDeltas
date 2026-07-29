@@ -3,8 +3,68 @@
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
 
+# 2026-07-28
+**Time spent: 4 hours**
+
+Ok. I kinda did a lot, but I also kinda only achieved a little. 
+First things first, I made the bed effector setup. This was quick and easy - I reused the CNC machined effector piece so I can save money by buying two of the same part, and then slapped a bed on it. Instead of through bolting this bed I will be attempting to bond mounting points onto the back, much like how LH Stinger does it. We will see if it works! I sure hope so, as it makes using the fiberglass/carbon fiber bed as a print surface way easier. 
+
+<img width="1288" height="340" alt="image" src="https://github.com/user-attachments/assets/a8ef94b9-0f49-4181-bd44-4b7749411d15" />
+
+<img width="1453" height="988" alt="image" src="https://github.com/user-attachments/assets/c1c20e05-a89c-4cc2-a803-5b0c0189e373" />
+
+Fairly simple! I need to add a few more screws but I wanted to move on. 
+
+<img width="1492" height="345" alt="image" src="https://github.com/user-attachments/assets/9a43c591-a54b-4c87-aa63-29b5715d64fa" />
+
+Next was the arms! This is a super simple part, with a 0.5mm wall stainless steel tube and the 2 cups of the MPJet Joints. 
+
+This is a 200mm arm length. I would later find out this is wrong...
+
+Next was the frame! Boy was this a doozy. 
+I got this wrong a few times. 
+
+<img width="921" height="1095" alt="image" src="https://github.com/user-attachments/assets/434498c2-fb87-40be-993f-797ff19a6265" />
+
+I started at this scale. 800mm verticals and 300mm horizontals, fully 3060 extrusion. 
+
+I then realized I was 130mm short. How was I 130mm off? Well, lets do the math. 
+
+200mm arms + 180mm z height = 380mm needed travel. Double that to 760mm since it's a double delta. Round up to 800 and that gives me space for idlers in the middle and whatnot. Easy peasy.
+
+Except, I forgot to take into account the height of the horizontal extrusions - 60mm plus 60mm, or 120mm total. Add 10mm as a buffer/to get to a nice imperial number, since the seller I am buying frame extrusions from sells in imperial and 930mm is a yard and 5/8 of an inch, which is a nice and easy number.
+
+
+
+Wait, I forgot to take into account linear rail carriages! That's 45mm each. So... over a meter now...
+I somehow ended up at 1120mm. This was a weird number, but I was convinced it was right. 
+
+<img width="604" height="1037" alt="image" src="https://github.com/user-attachments/assets/4a20bed1-b1d4-4ad0-b47a-7d54b2b91b9d" />
+
+Oh right, 1120mm because that lets me use 1 meter rails instead of cutting to 930mm. Easy. 
+
+
+It was at this point I realized something felt off. And I was right! I was waaay bigger than I needed to be. 
+
+How did I manage to get so far off? 'Cause the final frame ended up at 620.725mm (24.438 inches, the closest imperial size they sold to 620mm).
+
+Well. 
+
+I was sizing for 180mm of travel PER SIDE. I only need 90 per side. So yeah, I was almost double what I needed to be. 
+
+
+Catching this mistake let me cut down the arms to 100mm and the frame height to the aforementioned 620mm ish. Makes things sooo much nicer and way more rigid than the floppy meter long nonsense.
+
+When I tell you this took me 2.5 hours of back and forth math, I am not exaggerating. I went through so many different sizes. I started accounting for rails around the meter mark too, so I had more to adjust than the extrusion length and bleh. Wanted to stick to standard sizes.
+
+620mm lets me use 500mm rails! Which are signficantly easier to find and cheaper than meter long rails. 
+
+<img width="771" height="812" alt="image" src="https://github.com/user-attachments/assets/2cdb4934-1ebf-4c85-ab62-1b650e1a665c" />
+
+Anywho, that's the final frame, with linear rails added. Now I can finally get to work on the corner joints that actually join the horizontal extrusions to the vertical ones, which will hopefully incorporate some CNC machined parts! Unless it costs too much of course. 
+
 # 2026-07-27
-** Time spent: 3 hours**
+**Time spent: 3 hours**
 
 Toolhead!
 As stated previously, this is made out of CNC machined aluminum. 
