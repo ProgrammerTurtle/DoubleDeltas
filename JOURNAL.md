@@ -83,9 +83,9 @@ These bad boys are for attaching tensioned steel cable diagonals to prevent fram
 That brings us to the end of this entry, the frame entry. I think it looks really nice, and more importantly, it looks rigid. It weighs about 40 pounds as is, which is nuts. It may not be possible to fly this fella without an oversized baggage fee. But that's probably fine... Later me problem!
 
 To recap, we did:
-Printed corner brackets
-Steel Sandwich Panels
-Steel Cable Eyebolts
+- Printed corner brackets
+- Steel Sandwich Panels
+- Steel Cable Eyebolts
 
 This took a lot of planning and research as I looked at how other deltas did their frame and how I could adapt it to my design theory/preferences. My biggest inspirations are Colphaer for the steel cable diagonals and 84Dragon (both on discord) for the style of corner brackets and plate sandwiches, though I did take fairly different approaches to both. 
 
