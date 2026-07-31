@@ -2,6 +2,99 @@
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
+# 2026-07-29
+**Time spent: 5 hours**
+
+Frame! 
+So, when I left off, we just had extrusions and linear rails. First order of business: connecting those extrusions together!
+
+<img width="880" height="491" alt="image" src="https://github.com/user-attachments/assets/641c375c-cecb-46b0-972a-0a6435ed5c32" />
+
+I started with a very simple shape that extends over the horizontal for mounting, and interfaces with the vertical for mounting. 
+
+<img width="1174" height="780" alt="image" src="https://github.com/user-attachments/assets/ac384dc8-d16d-4259-bab0-d4c9b2a45fa4" />
+
+After that, I add mounting holes. I am using M5 screws for pretty much all the frame stuff as it consolidates parts and makes assembly easier - I just buy a big bag of M5x10 socket head screws and send it. 
+
+<img width="954" height="589" alt="image" src="https://github.com/user-attachments/assets/20567d3d-5e92-42a4-844b-2e65e8c5059b" />
+
+These corner brackets will be printed out of some sort of fiber filled high performance polymer, like abs-gf. I actually tried a simpler CNC version, but it would've been $600 (before tariffs) to get all 12 of the brackets made, so that was a no. Printed it is! I can compensate by sandwiching with lasercut steel. I will show that soon. 
+
+<img width="851" height="1019" alt="image" src="https://github.com/user-attachments/assets/a2ba1565-3b1d-41a9-99b2-3e4f419ffe98" />
+
+I then add the 11 remaining brackets via a circular pattern and some copy pasting. My one complaint about copy pasting components, or moving components between parent components, in fusion 360 is that it absolutely nukes your timeline. But I guess if I didn't use a hybrid design approach it wouldn't be an issue. Alas, I do hybrid rather than top down (components completely seperate). Meh.
+
+Bam, add screws. 
+
+<img width="885" height="1124" alt="image" src="https://github.com/user-attachments/assets/804a98d8-0395-4f19-9e7c-97879f78d78b" />
+
+6 screws per bracket, 12 brackets... that's 72 bolts!! Wow. This is gonna be fun to build! 
+
+<img width="1619" height="1036" alt="image" src="https://github.com/user-attachments/assets/f14fdbdd-04c2-44ce-8c0e-565af5120c82" />
+
+Next was working on those aforementioned plate sandwiches. I started out with 1/4 inch steel but ultimately ended up reducing it to 0.12" (practically 1/8") steel due to pricing. Gotta save money! 
+
+Anywho, the panels have holes for bolting to the horizontal extrusions with M5 screws as well as bolting into the ends of the vertical extrusions with M8 screws. 
+
+<img width="893" height="811" alt="image" src="https://github.com/user-attachments/assets/9be5cf29-3c73-4783-9128-5ca3d14f7c12" />
+
+I also added two more holes to each corner for bolting into the plastic. I am not super worried about this since I am bolting to the aluminum so rigidly, but it does need a bit. I orginally had 4, aka 2 per bracket, but I went down to 1 because of a feature I will be adding later (steel cable eyebolts). 
+
+<img width="1252" height="775" alt="image" src="https://github.com/user-attachments/assets/5d91d2fe-ecee-4333-ab94-ad52ed5ca6fc" />
+
+Screws!! Keep in mind the bottom is currently identical to this top, so double everything. 
+
+<img width="986" height="1051" alt="image" src="https://github.com/user-attachments/assets/db300644-4fbb-40ef-b326-e0e0d745540c" />
+
+See! 
+
+Now let's do some screw counting again. 
+
+30 screws per side, double for top and bottom, that's 60 more screws, 48 of which are M5. So the count now is 132 screws, 120 of which are M5x10. 
+
+Surely it won't get much higher?
+
+
+So, remember how I said this is a steel sandwich? Right now, we only have the outermost panel of the two sandwiches (top/bottom assemblies). 
+
+We gotta add the second panel of each sandwich! 4 panels total, 2 per top/bottom assembly. The motor modules will be bolting to these panels, so they are pretty important. They also help a lot with rigidity and weight. Making weight go up that is. Heavier is better for frame. 
+
+<img width="1584" height="952" alt="image" src="https://github.com/user-attachments/assets/35a1a24b-1c54-442c-a9b0-c55986a09897" />
+
+These panels are quite similar to the outer panels so I am not gonna show the full process. Just know they have cutouts for the belts to pass through, cutouts for the vertical extrusions, and one big cutout in the middle. I am not totally sure if that middle cutout will be staying but for now it is useful to let me see where I am working. And honestly, the more open the better, as that means I can mess with motors and stuff without dissasembling the frame!
+
+<img width="1459" height="933" alt="image" src="https://github.com/user-attachments/assets/2cbbca6b-3855-46e8-b4f2-37baecca9fa5" />
+
+More screws!!! These ones are all M5x10. 24 per side, thats 48 total. Add that to the 132 and we now have 180 screws! 168 of which are M5x10. Phew. This is rough.
+
+<img width="2052" height="131" alt="image" src="https://github.com/user-attachments/assets/48859b02-e45d-4f4e-b576-f3025d257ba9" />
+
+This is what I mean by nuking timelines, ugh. All the copy and paste icons are from organizing the screws in my CAD. Sorting them with their components etc. Absolutely ruins timelines. 
+
+
+Last, but certainly not least, I add the eyebolts.
+
+<img width="1556" height="549" alt="image" src="https://github.com/user-attachments/assets/f084d8aa-f2d8-4cf1-9875-f640fa8192dc" />
+
+These bad boys are for attaching tensioned steel cable diagonals to prevent frame twist. There are 4 of these per side, and this time I mean side of the triangle that is the frame, not top/bottom. So, there is 12 total. You can kinda see the nuts at the bottom - they bolt through the entire sandwich. Should be more rigid and means I don't have to deal with tapping the panels after they get powder coated, which is kinda a nightmare. 
+
+<img width="707" height="887" alt="image" src="https://github.com/user-attachments/assets/05bcddae-2173-4980-b401-e160591d1e97" />
+
+That brings us to the end of this entry, the frame entry. I think it looks really nice, and more importantly, it looks rigid. It weighs about 40 pounds as is, which is nuts. It may not be possible to fly this fella without an oversized baggage fee. But that's probably fine... Later me problem!
+
+To recap, we did:
+Printed corner brackets
+Steel Sandwich Panels
+Steel Cable Eyebolts
+
+This took a lot of planning and research as I looked at how other deltas did their frame and how I could adapt it to my design theory/preferences. My biggest inspirations are Colphaer for the steel cable diagonals and 84Dragon (both on discord) for the style of corner brackets and plate sandwiches, though I did take fairly different approaches to both. 
+
+So, what's next? In no particular order:
+Carriages, motor assemblies, bringing in the effectors and assembling the gantries, endstop mounts, idlers, tensioning, electronics, and a bunch of little touches all over! 
+
+I have a lot to do, but thankfully, a lot of time to do it. I love summer break. 
+
+
 
 # 2026-07-28
 **Time spent: 4 hours**
