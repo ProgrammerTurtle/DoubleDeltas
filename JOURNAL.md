@@ -3,7 +3,7 @@
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
 # 2026-07-30
-**Time spent: 1.5 hours**
+**Time spent: 2 hours**
 
 Carriages! 
 
