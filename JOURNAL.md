@@ -2,6 +2,52 @@
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
+# 2026-07-30
+**Time spent: 1.5 hours**
+
+Carriages! 
+
+Okay, these had me stumped for a while. I spent hours (that I am not logging) staring at what others have done, staring at my own CAD, staring at previous designs I have worked with. And I came to a conclusion - I don't like belt paths where the belt is perpendicular to the carriages.
+
+I just don't. It is so annoying to work with. 
+
+<img width="1268" height="748" alt="image" src="https://github.com/user-attachments/assets/64f4ac65-3ba9-4fb7-8a5c-f76c77bcfa45" />
+
+This is what I mean by perpendicular by the way, sketched over a basic flat carriage I had thrown together. This carriage is what I spent most of my time staring at. Because, somehow, I needed to add belt clamps to this. I hated it. There wasn't a way I could think of to do it CNC, and that was something I really wanted to do for this project (cnc parts). 
+
+So, I wanted the belt parallel to the carriages (aka rotated 90 degrees). This would be way easier to clamp the belts and allow for much lighter carriages. 
+
+<img width="1549" height="979" alt="image" src="https://github.com/user-attachments/assets/c0023a8b-1063-452e-8ec7-7e1eea0712ce" />
+
+<img width="1122" height="923" alt="image" src="https://github.com/user-attachments/assets/b8f49e1d-0d0b-4ee9-adc8-7913e4ce382b" />
+
+<img width="957" height="864" alt="image" src="https://github.com/user-attachments/assets/0bbb3917-1dde-4cfd-aefe-bfff3d05968d" />
+
+This is what I came up with. CNC machined unibody with a flat lasercut plate as a belt clamp. The plate is sandwiched between the carriage and linear rail carriage. So, I just crank down on the 4 mounting screws and it grabs the belt. The belt tooth geometry is based off of Ruiqimao's Carveoff belt clamps, as those are proven working for 9mm tension. 
+
+A friend - well actually three friends - then suggested one change, which makes the carriages look nicer and way stronger.
+
+<img width="1518" height="838" alt="image" src="https://github.com/user-attachments/assets/86119c42-ff55-4f37-b2bf-696310b2bd55" />
+
+Diamond carriages! I think this looks awesome. 
+
+Now, I keep having people telling me to double shear the ball joints. I don't think this is necessary. But, they didn't believe me. So, I decided to try and run a fusion 360 static force sim!
+
+
+First, I calculated the max load on the carriages using a [tool from my friend Deadlock](https://github.com/dead-lock-ed/DeltaCalcs/tree/main). This gave me:
+
+<img width="653" height="578" alt="image" src="https://github.com/user-attachments/assets/89d658bb-5591-46f0-a5e0-0bb080f29312" />
+
+A max of 30 ish newtons for 500k accel. Not bad. I will be simming with 50 newtons just to be special and over the top. 
+
+<img width="2099" height="1165" alt="image" src="https://github.com/user-attachments/assets/276cc8ed-bf18-4636-b5ff-e2f63d895cdc" />
+
+After messing with the sim for a while, I got this result. Setting this up was weird and I have no idea if it is correct, but basically I just defined the screw connections as bolts into threaded holes, assigned materials, and it... worked? Oh I also put the middle of the carriage as stationary/locked in place so it would flex properly. 
+
+Anywho, to explain the image. The numbers represent factor of safety. The lowest one on the joint is 35. This means that the strength of the part at that point is 35 times higher than the point it would noticeably deflect/fail. Meaning, this part is PLENTY strong. Unlesss I did the sim wrong of course, but I don't think I did? the deflection is exaggerated just to show what mode of force it is testing. 
+
+That's carriages. I really like how these turned out - and most importantly, they only weigh 35 grams each! 35 grams!! Practically nothing. 
+
 # 2026-07-29
 **Time spent: 5 hours**
 
