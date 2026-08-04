@@ -3,6 +3,41 @@
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
 
+# 2026-08-02
+**Time spent: 2.5 hours**
+
+Motor module 2 electric boogaloo??
+
+Ok so, a friend told me to make some motor modules out of sheet metal. This is a good idea! Unfortunately I think it is out of budget... but it is nice to have around!! 
+
+Anywho.
+
+<img width="1100" height="668" alt="image" src="https://github.com/user-attachments/assets/7d5abb2a-f580-4ef5-8127-8276540d2200" />
+
+Start with the same layout as before. 
+
+<img width="1231" height="852" alt="image" src="https://github.com/user-attachments/assets/6a5f4794-2305-41a4-b001-aeeec71f10b4" />
+
+Create a motor side plate. This plate is not thick enough for the bearing on its own - it will need stacked with another. That makes these motor modules 3 plates each. 3 times 6 is 18 plates total. Youch, my wallet.
+
+<img width="1558" height="1087" alt="image" src="https://github.com/user-attachments/assets/a36b0057-05f7-4792-bcd6-42410508d043" />
+
+Extend it and create a matching idler side plate. This plate can be thick enough for the bearings on its own, so it won't need stacked. This is good for budget.
+
+<img width="1318" height="1132" alt="image" src="https://github.com/user-attachments/assets/056432a9-78ec-439d-a0ab-6c5284f4b54d" />
+
+There's that second stacked plate. Each thin plate is 0.1". The thick plate is, you guessed it, 0.2". 
+
+<img width="1108" height="949" alt="image" src="https://github.com/user-attachments/assets/50644c87-bc7d-400d-a44d-aead2d4e3cd5" />
+
+From there I made these simple printed part structural spacers. These are designed to be minimal at the top so I can still hopefully route belts. I think it will be difficult to route belts in this design no matter what I do, but this could help. 
+
+<img width="1385" height="828" alt="image" src="https://github.com/user-attachments/assets/7492fc36-67f4-46de-bfb5-0c2dada79597" />
+
+Last, I just add screws and nuts that go through the whole sandwich. This is the easiest and most rigid way I could think of assembling. And I think it turned out really nice! 
+
+It's just... these would add $200-$250 to my budget... I think I would rather bulk up the printed part. So that's what I will do next entry - bulk up the printed version! It is such a small part that I think it is fine - end to end, this thing is like, 110mm. So it really shouldn't matter much. 
+
 # 2026-08-1
 **Time spent: 3.5 hours**
 
