@@ -3,7 +3,7 @@
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
 # 2026-07-30
-**Time spent: 2 hours**
+**Time spent: 3.5 hours**
 
 Carriages! 
 
@@ -49,7 +49,7 @@ Anywho, to explain the image. The numbers represent factor of safety. The lowest
 That's carriages. I really like how these turned out - and most importantly, they only weigh 35 grams each! 35 grams!! Practically nothing. 
 
 # 2026-07-29
-**Time spent: 5 hours**
+**Time spent: 7 hours**
 
 Frame! 
 So, when I left off, we just had extrusions and linear rails. First order of business: connecting those extrusions together!
@@ -143,7 +143,7 @@ I have a lot to do, but thankfully, a lot of time to do it. I love summer break.
 
 
 # 2026-07-28
-**Time spent: 4 hours**
+**Time spent: 7 hours**
 
 Ok. I kinda did a lot, but I also kinda only achieved a little. 
 First things first, I made the bed effector setup. This was quick and easy - I reused the CNC machined effector piece so I can save money by buying two of the same part, and then slapped a bed on it. Instead of through bolting this bed I will be attempting to bond mounting points onto the back, much like how LH Stinger does it. We will see if it works! I sure hope so, as it makes using the fiberglass/carbon fiber bed as a print surface way easier. 
@@ -205,7 +205,7 @@ The final math ended up being: 100mm arm length plus 90 mm z travel plus 45mm ca
 Anywho, that's the final frame, with linear rails added. Now I can finally get to work on the corner joints that actually join the horizontal extrusions to the vertical ones, which will hopefully incorporate some CNC machined parts! Unless it costs too much of course. 
 
 # 2026-07-27
-**Time spent: 3 hours**
+**Time spent: 6 hours**
 
 Toolhead!
 As stated previously, this is made out of CNC machined aluminum. 
@@ -279,7 +279,7 @@ This thing is silly. It's crazy overkill. It's bonkers. I love it though. Really
 
 
 # 2026-07-27
-**Time spent: 1.5 hours**
+**Time spent: 2.5 hours**
 
 Alright. Officially kicking this bad boy off. Basically, DoNotDelta V2 for real. Here is my X tier funding pitch:
 
