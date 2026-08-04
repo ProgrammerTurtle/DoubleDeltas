@@ -4,7 +4,7 @@ The successor to DoNotDelta - a high performance take on Colinear Double Delta K
 
 
 # 2026-08-02
-**Time spent: 2.5 hours**
+**Time spent: 3.5 hours**
 
 Motor module 2 electric boogaloo??
 
@@ -48,7 +48,7 @@ Ok that's all for real this time.
 
 
 # 2026-08-1
-**Time spent: 3.5 hours**
+**Time spent: 5 hours**
 
 Motor assemblies!!
 
