@@ -1,4 +1,4 @@
-<img width="1385" height="963" alt="image" src="https://github.com/user-attachments/assets/2c7ffd09-ba01-47c4-9e3f-643460cfd94d" /># DoubleDeltas
+# DoubleDeltas
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
