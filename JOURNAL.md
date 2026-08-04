@@ -1,6 +1,72 @@
-# DoubleDeltas
+<img width="1385" height="963" alt="image" src="https://github.com/user-attachments/assets/2c7ffd09-ba01-47c4-9e3f-643460cfd94d" /># DoubleDeltas
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
+
+
+# 2026-08-1
+**Time spent: 3.5 hours**
+
+Motor assemblies!!
+
+These motor assemblies are required to get horizontal belt pathing without moving the motors outside of the frame. 
+
+<img width="1072" height="831" alt="image" src="https://github.com/user-attachments/assets/88b0f702-3ba1-4b5a-be48-b9728e1b8e1d" />
+
+You can see my preliminary sketch here. I will be using bearings and live shaft idlers to offset the motors about 72mm. Now, moving the motors out of the frame would be a 45mm offset. So, the difference is about an inch. That's really not bad! I am willing to accept that.
+
+Anywho, I take that preliminary sketch and use fusion's Derive tool, which I just discovered, to move this design into a seperate document. That way we can keep the timeline of this part and the overall printer a bit cleaner. A bit.
+
+<img width="1141" height="825" alt="image" src="https://github.com/user-attachments/assets/6699e86b-cde5-45ea-940e-924aa2462e3c" />
+
+I am using 605 bearings basically everywhere here since they are nice and beefy for high tension 9mm belts. You can see them on either end of the pulley on the right as well as standalone slightly to the upper left of that pulley as an idler on the back of the belt. 
+This setup mimics having the motor aligned with the carriage path without it actually being, as otherwise the motor would hit the frame. 
+
+<img width="1172" height="981" alt="image" src="https://github.com/user-attachments/assets/29261b8c-240b-42b8-b010-70183ebc9790" />
+
+I always like to start with doubleshear on the motor. No particular reason, that's just where I start. 
+
+<img width="1097" height="977" alt="image" src="https://github.com/user-attachments/assets/d9f4ccbc-dd23-4f2e-a6b5-513fdbac5b44" />
+
+From there it just gets extended. 
+
+<img width="1371" height="968" alt="image" src="https://github.com/user-attachments/assets/7f0954eb-cf29-4921-b263-a2859f8c737e" />
+
+Then I add the 30mm shafts for the idlers and some countersinks for the motor screws! That way I don't need super long motor screws. 
+
+<img width="1214" height="809" alt="image" src="https://github.com/user-attachments/assets/5910a73d-d80c-4f96-aabe-56d0b4f04c69" />
+
+I actually then extended up one end. I figured I can use this part to help locate the linear rail! So this print extends to exactly the height the linear rail needs. Since there is one on both top and bottom, it will sandwich the rail and align it.
+
+From here, I decided to challenge myself a bit. I wanted this part to be organic! Not as blocky. 
+
+<img width="1450" height="821" alt="image" src="https://github.com/user-attachments/assets/99b177c4-20be-45e7-bc6f-a632e0cfe2c8" />
+
+So, I made this nice spline! This curve is pretty nice looking and is just defined by some random points and the idler bores. 
+
+<img width="1447" height="902" alt="image" src="https://github.com/user-attachments/assets/5f09525a-98ee-41e5-b39c-46350c4c40dc" />
+
+With a few fillets, you get a pretty nice result. 
+
+Slight issue, however, is that this part is centered on the pulleys being centered. Which is fine, except that the pulleys have hubs. 
+
+<img width="1246" height="775" alt="image" src="https://github.com/user-attachments/assets/52bd6512-113c-4db3-9f7b-31e8bcef4959" />
+
+You can see those hubs here. So the actual belt is currently not centeed. This is a relatively easy fix! 
+
+The one big constraint is that the end of this part, where the belt is coming out and the highest point of the part, needs to be 30mm wide. This is because my vertical extrusion is only 30mm wide. So, if it is wider, it will hit the horizontal extrusions of the frame. 
+
+<img width="1385" height="963" alt="image" src="https://github.com/user-attachments/assets/a5481afe-032e-4a55-a287-dfb6ed2b77ea" />
+
+With a couple extrudes here and there, some press pulls, blah blah, we get this!! 
+
+The part looks super organic with the recesses on the sides and whatnot. Those are mainly there to provide enough material for the bearing but still keep the part thin enough at the end to fit between the horizontal parts of the frame! 
+
+<img width="1657" height="1064" alt="image" src="https://github.com/user-attachments/assets/e03b15da-2353-4d6b-ba38-4d0b0bb464e2" />
+
+And here they are in place in the frame. Currently they are mounted by 3 screws bolting up through the bottom plate and no other mounting. I may change that a bit though... Like, I could bolt to the extrusions, or I could bolt to the top plate of the frame sandwich, all for higher rigidity! 
+
+For now, I am done though. I am pretty happy with this part as is. 
+
 
 # 2026-07-30
 **Time spent: 3.5 hours**
