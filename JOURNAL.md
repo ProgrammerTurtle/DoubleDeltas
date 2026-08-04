@@ -38,6 +38,15 @@ Last, I just add screws and nuts that go through the whole sandwich. This is the
 
 It's just... these would add $200-$250 to my budget... I think I would rather bulk up the printed part. So that's what I will do next entry - bulk up the printed version! It is such a small part that I think it is fine - end to end, this thing is like, 110mm. So it really shouldn't matter much. 
 
+Actually, one last thing.
+
+<img width="1248" height="749" alt="image" src="https://github.com/user-attachments/assets/a19fd783-a08d-466b-beea-5d1f84ac1e31" />
+
+This cutout will help a ton with belt routing. 
+
+Ok that's all for real this time. 
+
+
 # 2026-08-1
 **Time spent: 3.5 hours**
 
