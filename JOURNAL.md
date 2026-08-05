@@ -2,6 +2,62 @@
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
+# 2026-08-04
+**Time spent: 3 hours**
+
+Oh. My. Gosh.
+
+I made the sheet metal motor mounts affordable!!
+
+
+I just had to switch all the lasercut parts from powdercoated steel to uncoated 5052 aluminum, and do some trickery to get the motor mounts down to 2 plates instead of 3. Badda bing badda boom, it's somehow super affordable now!!
+
+<img width="1280" height="713" alt="image" src="https://github.com/user-attachments/assets/4c8b6711-50e4-4e9c-b62b-8a655621cdea" />
+
+Like, super affordable. Especially since I have a 50% coupon. This means I can use more lasercutting elsewhere! Like... an electrical panel!!
+
+Anywho, I decided to fully redesign the motor mounts. I kinda had to since to get them to fit as 2 plates instead of 3, I needed to move the motor back 5mm and out like 2.5mm ish. Which isn't bad. 
+
+<img width="1426" height="762" alt="image" src="https://github.com/user-attachments/assets/3bd60a92-d3cc-47e5-a117-8d014fba8158" />
+
+Started the same as last time with a pile of hardware, just with slightly different spacing. 
+
+<img width="1313" height="687" alt="image" src="https://github.com/user-attachments/assets/1d7ba36f-9251-44fa-81f9-19fa9a7a9a7e" />
+
+Once again, I like to work from the motor mount. I really don't know why I do this - I should be doing the entire plate in one sketch so that my timeline stays cleaner and they are easier to edit, but eh, old habits die hard. 
+
+<img width="1356" height="789" alt="image" src="https://github.com/user-attachments/assets/5151eb9d-58d8-4fc3-8761-53c5b0c89b6b" />
+
+Turn it into a full plate by adding the bores for bearings and pins (which are currently oversized, oops). Then I double it for the second plate. Just a simply copy and paste. 
+
+<img width="1406" height="859" alt="image" src="https://github.com/user-attachments/assets/22aacaaa-9602-4511-b57d-174d2550390f" />
+
+Now I fix the bores and widths on the plates. These are 0.188" thick 5052 aluminum. I need to double check how I should be tolerancing my bores so that they work as interference/light press fits. Right now they are just exactly matching the part OD for the bore ID, which I think might be fine because of laser kerf? Dunno. I will ask my brother what he did. 
+
+I also shortened the plates by removing some from the side that is against the vertical extrusion. Or, correction, WAS against the vertical extrusion. Because of how far off center these plates are, I needed to just have it not go up against the vertical otherwise it would hit the horizontals. Shifting it to be centered would take a lot more offseting of the motor, which is something I really want to avoid. 
+
+<img width="1283" height="760" alt="image" src="https://github.com/user-attachments/assets/9a710dcd-8478-4364-afe3-a4b5c883d2fd" />
+
+Next we get a big printed spacer. This serves as the buffer between the two plates and is also how the modules will mount, with heat inserts in top/bottom (m5 of course). 
+
+<img width="1426" height="843" alt="image" src="https://github.com/user-attachments/assets/8e0981b0-a06a-404e-b198-958e031a5b0b" />
+
+Because of that part, we also need these cutouts in the sides of the plates. These make it so that I can actually still manage to route the belts despite them being somewhat encased in material - this un-encases them. Hopefully it is enough to be able to route the belts. I think it's gonna be a bit tight, expecially once installed in the frame, but it should be possible. Hopefully not too painful. We will find out!
+
+You can also see I added mounting holes in that operation. Same cutting op, just added a bunch of M3 holes. These either thread into the motor or thread into the back plate. Since the plates aren't getting powder coated, I am willing to deal with tapping them now. 
+
+<img width="1558" height="861" alt="image" src="https://github.com/user-attachments/assets/4ddeb3d3-b4a9-4174-9ba5-bd59f4d8aef3" />
+
+Add some screws in the sides and screw holes on top/bottom and we are done with the new motor modules! The mounting holes on top are identical to those on bottom. They are off center so that they are centered with the belt path and thus the rest of the printer. Helps things look nicer from the outside. 
+
+<img width="1242" height="846" alt="image" src="https://github.com/user-attachments/assets/5d296c38-acbf-47fd-b87c-3335aaab5bf7" />
+
+<img width="1330" height="894" alt="image" src="https://github.com/user-attachments/assets/f676624d-5ccb-4547-bac2-4fdf3b4e2019" />
+
+And here they are integrated into the machine! Gosh, this looks awesome, and will be incredibly rigid! In fact, this means that the only part of my motion system that isn't metal (or, at least, structurally metal) will be the idlers/tensioners! And even then, I might be able to do something about that... Maybe. Gonna mess around with lasercut designs, CNC designs, and even SLM designs. We will see how this goes!
+
+I love how these turned out and I love even more that I managed to fit it in my budget. This is so exciting!! 
+
 # 2026-08-03
 **Time spent: 2 hours**
 
