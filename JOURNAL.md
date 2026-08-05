@@ -2,6 +2,44 @@
 
 The successor to DoNotDelta - a high performance take on Colinear Double Delta Kinematics. 
 
+# 2026-08-03
+**Time spent: 2 hours**
+
+Bulking up the printed motor mounts because sheet metal is too expensive.
+
+Alright, so. Sheet metal adds about $250 to my costs, so I cannot do sheet metal for these motor assemblies. But that's fine, I don't need it. 
+
+<img width="1521" height="940" alt="image" src="https://github.com/user-attachments/assets/b45bf5ec-8534-43c2-b9ba-c0a720e062b1" />
+
+I started by going back to the blocky version. I extended out the tall bit so that there is more material over the bearing and idler shaft for strength.
+
+<img width="1488" height="974" alt="image" src="https://github.com/user-attachments/assets/bfd3c7d4-89dd-4911-81b8-7cbd35fb0f7e" />
+
+Then I actually started making the walls thicker for more material/bracing. Because the end of the part is constrained to 30mm, I need that little divot on the front right. 
+
+<img width="1449" height="977" alt="image" src="https://github.com/user-attachments/assets/76cc0738-0d36-4ace-9a81-844ed42fdfe2" />
+
+I did the same to the opposite side and brought the curves back! These curves look pretty nice. 
+
+<img width="1551" height="801" alt="image" src="https://github.com/user-attachments/assets/dddcfeab-df43-42df-a4d5-bd86fdba4734" />
+
+They start out matching but then the front one diverges into its own thing. 
+
+<img width="929" height="923" alt="image" src="https://github.com/user-attachments/assets/0e3ec63a-d6aa-4397-ae07-4ac0afb57039" />
+
+It was at this point I realized my walls were now thick enough to utilize the 4th screw hole on the motor. This will help a lot with making everything more rigid.
+
+On the initial version I wasn't able to use this hole because I was optimizing for the entire part to be 30mm wide rather than just the end of it. This would have been fine, but this new bulkier appraoch is just better. 
+
+<img width="1390" height="1117" alt="image" src="https://github.com/user-attachments/assets/61a4f4c5-7df3-47a7-83c6-40e18e86ba5f" />
+
+Lastly, I added mounting. I added one M5 screw on the rear vertical wall that will actually use a T nut to bolt to the vertical extrusion, while I also added top holes (and unseen bottom holes) for M5 heat inserts for the top/bottom plates to bolt to. This forms a printed and metal sandwich, which is great for rigidity. 
+
+<img width="1743" height="1056" alt="image" src="https://github.com/user-attachments/assets/922aff19-074e-4946-9d0b-61dce41dfe4b" />
+
+Integrated into the assembly, it looks great! It kinda bothers me that the screw holes are off center but I might be able to fix that later. 
+
+That's motor assemblies done. Yay! I just need to do idlers/tensioners and the "core" of the printer will be done. 
 
 # 2026-08-02
 **Time spent: 3.5 hours**
